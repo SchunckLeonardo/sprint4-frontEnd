@@ -58,6 +58,16 @@ body {
   object-fit: cover;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
 #navHeader {
   background-color: #fff !important;
 }
@@ -70,10 +80,24 @@ body {
   font-weight: 700;
   letter-spacing: 0.2em;
 }
-#navHeader .container-fluid .navbar-nav {
+#navHeader .container-fluid .web-sect {
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+#navHeader .container-fluid .web-sect::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background-color: #196273;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s;
+}
+#navHeader .container-fluid .web-sect:hover::before {
+  width: 100%;
 }
 #navHeader .container-fluid #navbarNav .login {
   border: 1px solid #196273;

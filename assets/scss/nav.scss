@@ -1,3 +1,5 @@
+@import 'reset';
+
 #navHeader {
     background-color: #fff !important;
 
@@ -11,10 +13,27 @@
             letter-spacing: 0.2em;
         }
 
-        .navbar-nav {
+        .web-sect {
             display: flex;
             justify-content: center;
             align-items: center;
+            position: relative;
+            
+
+            &::before {
+                content: "";
+                width: 0%;
+                height: 2px;
+                background-color: $cor_azul;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                transition: .5s;
+            }
+
+            &:hover::before {
+                width: 100%;
+            }
         }
 
         #navbarNav .login {
