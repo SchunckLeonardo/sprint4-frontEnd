@@ -9,4 +9,44 @@ $cor_branca: #F4F4F0;
 
 body {
     overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 15vh repeat(5, 1fr) 15vh;
+    grid-template-areas: 
+    "nav nav nav"
+    "challenge challenge challenge"
+    "projetos projetos projetos"
+    "funcionamento funcionamento funcionamento"
+    "perfil perfil perfil"
+    "necessario necessario necessario"
+    "footer footer footer"
+    ;
+
+    #navHeader {
+        grid-area: nav;
+    }
+
+    #challenge-section {
+        grid-area: challenge;
+    }
+
+    #projetos-section {
+        grid-area: projetos;
+    }
+
+    #funcionamento-section {
+        grid-area: funcionamento;
+    }
+
+    #perfil-section {
+        grid-area: perfil;
+    }
+
+    #necessario-section {
+        grid-area: necessario;
+    }
+
+    #footer {
+        grid-area: footer;
+    }
 }
