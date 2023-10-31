@@ -4,33 +4,50 @@
   box-sizing: border-box;
 }
 
-body {
+.index {
   overflow-x: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 15vh repeat(5, 1fr) 15vh;
+  grid-template-rows: fit-content(40%) repeat(5, 1fr) 15vh;
   grid-template-areas: "nav nav nav" "challenge challenge challenge" "projetos projetos projetos" "funcionamento funcionamento funcionamento" "perfil perfil perfil" "necessario necessario necessario" "footer footer footer";
 }
-body #navHeader {
+.index #navHeader {
   grid-area: nav;
 }
-body #challenge-section {
+.index #challenge-section {
   grid-area: challenge;
 }
-body #projetos-section {
+.index #projetos-section {
   grid-area: projetos;
 }
-body #funcionamento-section {
+.index #funcionamento-section {
   grid-area: funcionamento;
 }
-body #perfil-section {
+.index #perfil-section {
   grid-area: perfil;
 }
-body #necessario-section {
+.index #necessario-section {
   grid-area: necessario;
 }
-body #footer {
+.index #footer {
   grid-area: footer;
+}
+
+.login-body {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: fit-content(40%) 1fr 15vh;
+  grid-template-areas: "nav nav nav" "login login login" "footer footer footer";
+}
+.login-body #navHeader {
+  grid-area: nav;
+}
+.login-body #footer {
+  grid-area: footer;
+}
+.login-body #login-main {
+  grid-area: login;
 }
 
 .challenge-section {
@@ -44,33 +61,50 @@ body #footer {
   box-sizing: border-box;
 }
 
-body {
+.index {
   overflow-x: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 15vh repeat(5, 1fr) 15vh;
+  grid-template-rows: fit-content(40%) repeat(5, 1fr) 15vh;
   grid-template-areas: "nav nav nav" "challenge challenge challenge" "projetos projetos projetos" "funcionamento funcionamento funcionamento" "perfil perfil perfil" "necessario necessario necessario" "footer footer footer";
 }
-body #navHeader {
+.index #navHeader {
   grid-area: nav;
 }
-body #challenge-section {
+.index #challenge-section {
   grid-area: challenge;
 }
-body #projetos-section {
+.index #projetos-section {
   grid-area: projetos;
 }
-body #funcionamento-section {
+.index #funcionamento-section {
   grid-area: funcionamento;
 }
-body #perfil-section {
+.index #perfil-section {
   grid-area: perfil;
 }
-body #necessario-section {
+.index #necessario-section {
   grid-area: necessario;
 }
-body #footer {
+.index #footer {
   grid-area: footer;
+}
+
+.login-body {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: fit-content(40%) 1fr 15vh;
+  grid-template-areas: "nav nav nav" "login login login" "footer footer footer";
+}
+.login-body #navHeader {
+  grid-area: nav;
+}
+.login-body #footer {
+  grid-area: footer;
+}
+.login-body #login-main {
+  grid-area: login;
 }
 
 .error-404 {
@@ -89,33 +123,50 @@ body #footer {
   box-sizing: border-box;
 }
 
-body {
+.index {
   overflow-x: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 15vh repeat(5, 1fr) 15vh;
+  grid-template-rows: fit-content(40%) repeat(5, 1fr) 15vh;
   grid-template-areas: "nav nav nav" "challenge challenge challenge" "projetos projetos projetos" "funcionamento funcionamento funcionamento" "perfil perfil perfil" "necessario necessario necessario" "footer footer footer";
 }
-body #navHeader {
+.index #navHeader {
   grid-area: nav;
 }
-body #challenge-section {
+.index #challenge-section {
   grid-area: challenge;
 }
-body #projetos-section {
+.index #projetos-section {
   grid-area: projetos;
 }
-body #funcionamento-section {
+.index #funcionamento-section {
   grid-area: funcionamento;
 }
-body #perfil-section {
+.index #perfil-section {
   grid-area: perfil;
 }
-body #necessario-section {
+.index #necessario-section {
   grid-area: necessario;
 }
-body #footer {
+.index #footer {
   grid-area: footer;
+}
+
+.login-body {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: fit-content(40%) 1fr 15vh;
+  grid-template-areas: "nav nav nav" "login login login" "footer footer footer";
+}
+.login-body #navHeader {
+  grid-area: nav;
+}
+.login-body #footer {
+  grid-area: footer;
+}
+.login-body #login-main {
+  grid-area: login;
 }
 
 .funcionamento-section {
@@ -139,33 +190,50 @@ body #footer {
   box-sizing: border-box;
 }
 
-body {
+.index {
   overflow-x: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 15vh repeat(5, 1fr) 15vh;
+  grid-template-rows: fit-content(40%) repeat(5, 1fr) 15vh;
   grid-template-areas: "nav nav nav" "challenge challenge challenge" "projetos projetos projetos" "funcionamento funcionamento funcionamento" "perfil perfil perfil" "necessario necessario necessario" "footer footer footer";
 }
-body #navHeader {
+.index #navHeader {
   grid-area: nav;
 }
-body #challenge-section {
+.index #challenge-section {
   grid-area: challenge;
 }
-body #projetos-section {
+.index #projetos-section {
   grid-area: projetos;
 }
-body #funcionamento-section {
+.index #funcionamento-section {
   grid-area: funcionamento;
 }
-body #perfil-section {
+.index #perfil-section {
   grid-area: perfil;
 }
-body #necessario-section {
+.index #necessario-section {
   grid-area: necessario;
 }
-body #footer {
+.index #footer {
   grid-area: footer;
+}
+
+.login-body {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: fit-content(40%) 1fr 15vh;
+  grid-template-areas: "nav nav nav" "login login login" "footer footer footer";
+}
+.login-body #navHeader {
+  grid-area: nav;
+}
+.login-body #footer {
+  grid-area: footer;
+}
+.login-body #login-main {
+  grid-area: login;
 }
 
 #navHeader {
@@ -216,33 +284,50 @@ body #footer {
   box-sizing: border-box;
 }
 
-body {
+.index {
   overflow-x: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 15vh repeat(5, 1fr) 15vh;
+  grid-template-rows: fit-content(40%) repeat(5, 1fr) 15vh;
   grid-template-areas: "nav nav nav" "challenge challenge challenge" "projetos projetos projetos" "funcionamento funcionamento funcionamento" "perfil perfil perfil" "necessario necessario necessario" "footer footer footer";
 }
-body #navHeader {
+.index #navHeader {
   grid-area: nav;
 }
-body #challenge-section {
+.index #challenge-section {
   grid-area: challenge;
 }
-body #projetos-section {
+.index #projetos-section {
   grid-area: projetos;
 }
-body #funcionamento-section {
+.index #funcionamento-section {
   grid-area: funcionamento;
 }
-body #perfil-section {
+.index #perfil-section {
   grid-area: perfil;
 }
-body #necessario-section {
+.index #necessario-section {
   grid-area: necessario;
 }
-body #footer {
+.index #footer {
   grid-area: footer;
+}
+
+.login-body {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: fit-content(40%) 1fr 15vh;
+  grid-template-areas: "nav nav nav" "login login login" "footer footer footer";
+}
+.login-body #navHeader {
+  grid-area: nav;
+}
+.login-body #footer {
+  grid-area: footer;
+}
+.login-body #login-main {
+  grid-area: login;
 }
 
 .necessario-section {
@@ -256,33 +341,50 @@ body #footer {
   box-sizing: border-box;
 }
 
-body {
+.index {
   overflow-x: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 15vh repeat(5, 1fr) 15vh;
+  grid-template-rows: fit-content(40%) repeat(5, 1fr) 15vh;
   grid-template-areas: "nav nav nav" "challenge challenge challenge" "projetos projetos projetos" "funcionamento funcionamento funcionamento" "perfil perfil perfil" "necessario necessario necessario" "footer footer footer";
 }
-body #navHeader {
+.index #navHeader {
   grid-area: nav;
 }
-body #challenge-section {
+.index #challenge-section {
   grid-area: challenge;
 }
-body #projetos-section {
+.index #projetos-section {
   grid-area: projetos;
 }
-body #funcionamento-section {
+.index #funcionamento-section {
   grid-area: funcionamento;
 }
-body #perfil-section {
+.index #perfil-section {
   grid-area: perfil;
 }
-body #necessario-section {
+.index #necessario-section {
   grid-area: necessario;
 }
-body #footer {
+.index #footer {
   grid-area: footer;
+}
+
+.login-body {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: fit-content(40%) 1fr 15vh;
+  grid-template-areas: "nav nav nav" "login login login" "footer footer footer";
+}
+.login-body #navHeader {
+  grid-area: nav;
+}
+.login-body #footer {
+  grid-area: footer;
+}
+.login-body #login-main {
+  grid-area: login;
 }
 
 .perfil-section {
@@ -296,33 +398,50 @@ body #footer {
   box-sizing: border-box;
 }
 
-body {
+.index {
   overflow-x: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 15vh repeat(5, 1fr) 15vh;
+  grid-template-rows: fit-content(40%) repeat(5, 1fr) 15vh;
   grid-template-areas: "nav nav nav" "challenge challenge challenge" "projetos projetos projetos" "funcionamento funcionamento funcionamento" "perfil perfil perfil" "necessario necessario necessario" "footer footer footer";
 }
-body #navHeader {
+.index #navHeader {
   grid-area: nav;
 }
-body #challenge-section {
+.index #challenge-section {
   grid-area: challenge;
 }
-body #projetos-section {
+.index #projetos-section {
   grid-area: projetos;
 }
-body #funcionamento-section {
+.index #funcionamento-section {
   grid-area: funcionamento;
 }
-body #perfil-section {
+.index #perfil-section {
   grid-area: perfil;
 }
-body #necessario-section {
+.index #necessario-section {
   grid-area: necessario;
 }
-body #footer {
+.index #footer {
   grid-area: footer;
+}
+
+.login-body {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: fit-content(40%) 1fr 15vh;
+  grid-template-areas: "nav nav nav" "login login login" "footer footer footer";
+}
+.login-body #navHeader {
+  grid-area: nav;
+}
+.login-body #footer {
+  grid-area: footer;
+}
+.login-body #login-main {
+  grid-area: login;
 }
 
 .projetos-section {
@@ -339,33 +458,50 @@ body #footer {
   box-sizing: border-box;
 }
 
-body {
+.index {
   overflow-x: hidden;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 15vh repeat(5, 1fr) 15vh;
+  grid-template-rows: fit-content(40%) repeat(5, 1fr) 15vh;
   grid-template-areas: "nav nav nav" "challenge challenge challenge" "projetos projetos projetos" "funcionamento funcionamento funcionamento" "perfil perfil perfil" "necessario necessario necessario" "footer footer footer";
 }
-body #navHeader {
+.index #navHeader {
   grid-area: nav;
 }
-body #challenge-section {
+.index #challenge-section {
   grid-area: challenge;
 }
-body #projetos-section {
+.index #projetos-section {
   grid-area: projetos;
 }
-body #funcionamento-section {
+.index #funcionamento-section {
   grid-area: funcionamento;
 }
-body #perfil-section {
+.index #perfil-section {
   grid-area: perfil;
 }
-body #necessario-section {
+.index #necessario-section {
   grid-area: necessario;
 }
-body #footer {
+.index #footer {
   grid-area: footer;
+}
+
+.login-body {
+  overflow-x: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: fit-content(40%) 1fr 15vh;
+  grid-template-areas: "nav nav nav" "login login login" "footer footer footer";
+}
+.login-body #navHeader {
+  grid-area: nav;
+}
+.login-body #footer {
+  grid-area: footer;
+}
+.login-body #login-main {
+  grid-area: login;
 }
 
 .validation-section {

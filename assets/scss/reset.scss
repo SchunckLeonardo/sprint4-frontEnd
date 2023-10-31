@@ -7,11 +7,11 @@ $cor_branca: #F4F4F0;
     box-sizing: border-box;
 }
 
-body {
+.index {
     overflow-x: hidden;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 15vh repeat(5, 1fr) 15vh;
+    grid-template-rows: fit-content(40%) repeat(5, 1fr) 15vh;
     grid-template-areas: 
     "nav nav nav"
     "challenge challenge challenge"
@@ -48,5 +48,27 @@ body {
 
     #footer {
         grid-area: footer;
+    }
+}
+
+.login-body {
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: fit-content(40%) 1fr 15vh;
+    grid-template-areas: 
+    "nav nav nav"
+    "login login login"
+    "footer footer footer"
+    ;
+
+    #navHeader {
+        grid-area: nav;
+    }
+    #footer {
+        grid-area: footer;
+    }
+    #login-main {
+        grid-area: login;
     }
 }
