@@ -1,0 +1,32 @@
+#navHeader {
+    background-color: #fff !important;
+
+    .container-fluid {
+        margin: 0 10%;
+
+        .navbar-brand {
+            font-size: 2em;
+            font-family: "Courier New", Courier, monospace;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+        }
+
+        .navbar-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #navbarNav .login {
+            border: 1px solid #196273;
+            padding: 5px 25px;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.5s;
+
+            &:hover {
+                box-shadow: 0 0 10px #000;
+            }
+        }
+    }
+}

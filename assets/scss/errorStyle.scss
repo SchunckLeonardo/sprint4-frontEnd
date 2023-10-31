@@ -1,6 +1,8 @@
+@import 'reset';
+
 .error-404 {
     height: 92vh;
-    background-color: #196273;
+    background-color: $cor_azul;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -1,0 +1,10 @@
+@import 'reset';
+
+.projetos-section {
+    min-height: 100vh;
+    background-color: $cor_branca;
+
+    .projetos-title {
+        color: $cor_azul;
+    }
+}

@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.challenge-section {
+  min-height: 100vh;
+  background-color: #196273;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.error-404 {
+  height: 92vh;
+  background-color: #196273;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.funcionamento-section {
+  min-height: 100vh;
+  background-color: #196273;
+}
+
+.login-box {
+  min-height: 60vh;
+  overflow: hidden;
+}
+.login-box .login-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#navHeader {
+  background-color: #fff !important;
+}
+#navHeader .container-fluid {
+  margin: 0 10%;
+}
+#navHeader .container-fluid .navbar-brand {
+  font-size: 2em;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+}
+#navHeader .container-fluid .navbar-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#navHeader .container-fluid #navbarNav .login {
+  border: 1px solid #196273;
+  padding: 5px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+#navHeader .container-fluid #navbarNav .login:hover {
+  box-shadow: 0 0 10px #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.necessario-section {
+  min-height: 100vh;
+  background-color: #196273;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.perfil-section {
+  min-height: 100vh;
+  background-color: #F4F4F0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.projetos-section {
+  min-height: 100vh;
+  background-color: #F4F4F0;
+}
+.projetos-section .projetos-title {
+  color: #196273;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.validation-section {
+  height: 100vh;
+}
+
+/*# sourceMappingURL=style.css.map */
